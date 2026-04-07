@@ -1,5 +1,3 @@
-package days;
-
 public class EvenOdd {
     public static void main(String[] args) {
         int[] arr = {67, 25, 89, 12, 34, 56};

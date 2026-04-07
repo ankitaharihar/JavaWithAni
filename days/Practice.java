@@ -1,4 +1,3 @@
-package days;
 public class Practice{
     public static void main(String[] args) {
 
@@ -54,10 +53,12 @@ public class Practice{
 
 
       int a [] ={2,43,6,48,34};
-      for(int i = 0 ; i < a.length ; ++i);
+      for(int i = 0 ; i < a.length ; ++i) {
          a[i] = a[i] * 10;
-      for(int i = 0 ; i < a.length ; ++i);
+      }
+      for(int i = 0 ; i < a.length ; ++i) {
        System.out.println(a[i]);
+      }
 
 //a[] = {10,90,67,45,34,89};
 
