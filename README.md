@@ -1,63 +1,100 @@
-# JavaWithAni - My Java Journey
+# JavaWithAni - Important Java Notes and Practice
 
-Ye repository meri Java learning journey ke liye bani hai.
-Isme day-wise code, notes, practice questions, aur mini-projects rakhe jayenge.
+This repository contains daily Java coding practice, revision notes, and mini projects.
+It is designed to help build a strong Java foundation and improve problem-solving skills.
 
-## Is Repository Ka Goal
+## Learning Goals
 
-- Java basics se start karke DSA aur projects tak jaana
-- Har din ka code track karna
-- Revision ke time quickly topics dhoondhna
+- Master Java basics and core syntax
+- Practice logical thinking through daily coding
+- Build confidence in object-oriented programming
+- Move from fundamentals to DSA and projects
 
-## Workspace Structure
+## Folder Structure
 
-- Day wise/
-  - Existing code files (current running file yahin hai)
-  - Example: Day1.java
-- days/
-  - New clean day-wise structure
-  - day01/
-- notes/
-  - Topic-wise short notes
-- practice/
-  - Extra coding practice questions
-- mini-projects/
-  - Small Java projects
-- resources/
-  - PDFs, links, cheatsheets, references
+- days/ - Daily Java practice programs
+- notes/ - Topic-wise revision notes
+- practice/ - Extra problem-solving questions
+- mini-projects/ - Small Java projects
+- resources/ - Study material and references
 
-## Current Program
+## Important Java Topics
 
-- File: Day wise/Day1.java
-- Problem: Find missing number from 1 to n
-- Output: The missing number is: 4
+1. Basics
 
-## Run Karne Ke Steps (Terminal)
+- Variables, data types, operators, input and output
+- Type casting and expressions
 
-1. Project root me PowerShell kholo.
-2. Source folder me jao:
+2. Control Flow
 
-   cd "Day wise"
+- if, else if, else
+- switch
+- for, while, do-while loops
 
-3. Compile karo:
+3. Methods
 
-   javac Day1.java
+- Method declaration and calling
+- Parameters and return types
+- Method overloading
 
-4. Run karo:
-
-   java Day1
-
-## Important
-
-- Java class names case-sensitive hote hain.
-- Isliye run command me Day1 likho, day1 nahi.
-
-## Next Learning Plan (Suggested)
-
-1. Variables, Data Types, Operators
-2. If-Else, Switch
-3. Loops (for, while, do-while)
 4. Arrays and Strings
-5. Methods and OOP Basics
-6. DSA Basics (searching, sorting)
-7. Mini Projects
+
+- 1D arrays and traversal
+- String methods and common operations
+
+5. Object-Oriented Programming
+
+- Class and object
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+
+6. Exception Handling
+
+- try, catch, finally
+- throw and throws
+- Checked vs unchecked exceptions
+
+7. Collections Framework
+
+- ArrayList
+- HashMap
+- HashSet
+- Iterator and basic operations
+
+8. DSA Basics
+
+- Searching (linear, binary)
+- Sorting (bubble, selection, insertion)
+- Basic recursion and patterns
+
+## Java Syntax Reminders
+
+- Java is case-sensitive.
+- The file name should match the public class name.
+- Program execution starts from: public static void main(String[] args)
+- Use meaningful variable names and proper indentation.
+
+## How to Compile and Run (PowerShell)
+
+From project root:
+
+    cd days
+    javac Day1.java
+    java Day1
+
+For any other program, replace Day1 with your class name.
+
+## Practice Strategy
+
+1. Solve at least one problem every day.
+2. Revise one Java topic after coding.
+3. Rewrite difficult solutions without looking.
+4. Keep improving code readability and logic.
+
+## Current Focus
+
+- Strong Java fundamentals
+- Pattern and number-based logic building
+- Gradual move toward DSA and project implementation
