@@ -1,3 +1,12 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.project.sourcePaths": [
+        "days",
+        "Problem set 1",
+        "Problem set 2",
+        "practice",
+        "mini-projects"
+    ],
+    "java.project.outputPath": "bin"
 }
