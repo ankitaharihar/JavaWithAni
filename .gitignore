@@ -1,0 +1,5 @@
+# Ignore compiled Java bytecode
+*.class
+
+# Ignore build output directory contents except docs
+bin/**/*.class
