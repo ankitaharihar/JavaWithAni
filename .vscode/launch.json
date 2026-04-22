@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArmstrongNumberCheck",
+      "request": "launch",
+      "mainClass": "ArmstrongNumberCheck",
+      "projectName": "JavaWithAni_d0a0430"
+    },
+    {
+      "type": "java",
       "name": "NumberToWordsQuestion",
       "request": "launch",
       "mainClass": "NumberToWordsQuestion",
