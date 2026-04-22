@@ -1,5 +1,5 @@
 public class DivisibleBy357Check {
-    public static void main(String[] args) {
+public static void main(String[] args) {
         int num = 105;
 
         if (num % 3 == 0 && num % 5 == 0 && num % 7 == 0)

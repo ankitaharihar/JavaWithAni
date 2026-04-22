@@ -3,37 +3,9 @@
   "configurations": [
     {
       "type": "java",
-      "name": "ArmstrongNumberCheck",
+      "name": "GPCommonRatioQuestion",
       "request": "launch",
-      "mainClass": "ArmstrongNumberCheck",
-      "projectName": "JavaWithAni_d0a0430"
-    },
-    {
-      "type": "java",
-      "name": "NumberToWordsQuestion",
-      "request": "launch",
-      "mainClass": "NumberToWordsQuestion",
-      "projectName": "JavaWithAni_d0a0430"
-    },
-    {
-      "type": "java",
-      "name": "ReverseNumberTwoSolutions",
-      "request": "launch",
-      "mainClass": "ReverseNumberTwoSolutions",
-      "projectName": "JavaWithAni_d0a0430"
-    },
-    {
-      "type": "java",
-      "name": "GP8thTermQuestion",
-      "request": "launch",
-      "mainClass": "GP8thTermQuestion",
-      "projectName": "JavaWithAni_d0a0430"
-    },
-    {
-      "type": "java",
-      "name": "AP20thTermQuestion",
-      "request": "launch",
-      "mainClass": "AP20thTermQuestion",
+      "mainClass": "GPCommonRatioQuestion",
       "projectName": "JavaWithAni_d0a0430"
     },
     {
@@ -41,27 +13,6 @@
       "name": "DivisibleBy357Check",
       "request": "launch",
       "mainClass": "DivisibleBy357Check",
-      "projectName": "JavaWithAni_d0a0430"
-    },
-    {
-      "type": "java",
-      "name": "DisplayAPQuestion",
-      "request": "launch",
-      "mainClass": "DisplayAPQuestion",
-      "projectName": "JavaWithAni_d0a0430"
-    },
-    {
-      "type": "java",
-      "name": "APSum25Terms",
-      "request": "launch",
-      "mainClass": "APSum25Terms",
-      "projectName": "JavaWithAni_d0a0430"
-    },
-    {
-      "type": "java",
-      "name": "AP15thTermQuestion",
-      "request": "launch",
-      "mainClass": "AP15thTermQuestion",
       "projectName": "JavaWithAni_d0a0430"
     },
     {
