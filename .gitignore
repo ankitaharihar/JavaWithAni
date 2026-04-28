@@ -4,3 +4,4 @@
 # Ignore build output directory contents except docs
 bin/**/*.class
 /build/
+/target/
