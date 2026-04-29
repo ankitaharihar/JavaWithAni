@@ -14,7 +14,7 @@ public class ProductService {
     // 1. Total number of products
     public void totalProducts() {
         System.out.println("Total products: " + list.size());
-    }
+        System.out.println();    }
 
     // 2. Total units
     public void totalUnits() {
@@ -23,6 +23,7 @@ public class ProductService {
             sum += p.getQty();
         }
         System.out.println("Total units: " + sum);
+        System.out.println(); 
     }
 
     // 3. Total value
@@ -32,6 +33,7 @@ public class ProductService {
             total += p.getPrice() * p.getQty();
         }
         System.out.println("Total value: " + total);
+        System.out.println(); 
     }
 
     // 4. Most expensive product
@@ -43,6 +45,7 @@ public class ProductService {
             }
         }
         System.out.println("Most expensive: " + max);
+        System.out.println(); 
     }
 
     // 5. Products in range 100–500
@@ -50,6 +53,7 @@ public class ProductService {
         for (Product p : list) {
             if (p.getPrice() >= 100 && p.getPrice() <= 500) {
                 System.out.println(p);
+                System.out.println(); 
             }
         }
     }
@@ -63,6 +67,7 @@ public class ProductService {
             }
         }
         System.out.println("Cheapest: " + min);
+        System.out.println(); 
     }
 
     // 7. Products with qty = 0
@@ -79,6 +84,7 @@ public class ProductService {
         for (Product p : list) {
             if (p.getCategory().equals("electronics")) {
                 System.out.println(p.getName());
+                System.out.println(); 
             }
         }
     }
@@ -88,6 +94,7 @@ public class ProductService {
         for (Product p : list) {
             if (p.getCategory().equals("electronics")) {
                 System.out.println(p);
+                System.out.println(); 
             }
         }
     }
