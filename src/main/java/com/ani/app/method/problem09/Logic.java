@@ -1,0 +1,11 @@
+package com.ani.app.method.problem09;
+
+public class Logic {
+    public int power(int base, int exp) {
+        int result = 1;
+        for (int i = 0; i < exp; i++) {
+            result = result * base;
+        }
+        return result;
+    }
+}
